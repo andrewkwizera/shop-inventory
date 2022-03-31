@@ -1,19 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Questrial&display=swap");
+
+
+:root {
+    --primary-blue: #333366;
+    --font-black: #333333;
+    --background: #f5f6fa;
+    --primary-black: #788bbc;
+    --background-grey: #e5eaf0;
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     /* width: 100vw; */
 }
 
 
 .main__nav {
+    border-bottom: 2px solid var(--primary-black);
     display: flex;
     height: 10vh;
-    /* width: 100%; */
-    border: 1px solid black;
 }
 
 .nav {
@@ -28,6 +38,17 @@ body {
 .userdetails {
     display: flex;
     align-items: center;
+    background-color: var(--background-grey);
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--font-black);
+    transition: .3s ease-in-out;
+}
+
+.userdetails:hover {
+    background-color: var(--primary-black);
+    color: var(--background-grey);
 }
 
 .userdetails img {
@@ -35,20 +56,176 @@ body {
     margin-right: 10px;
 }
 
+.userdetails i {
+    font-size: 18px;
+    color: var(--font-black);
+    margin-left: 15px;
+}
+
 .sidebar {
     /* height: 900px; */
-    flex: 2;
-    border: 1px red solid;
-    width: 20%;
+    flex: 15;
+    width: 15%;
     padding: 0 15px;
 }
 
 .sidebar__menu {
-    border: green 1px solid;
     height: 40px;
     padding: 0 15px;
     display: flex;
     align-items: center;
     margin: 10px 0;
     border-radius: 30px;
+    transition: .3s ease-in-out;
+    cursor: pointer;
 }
+
+.sidebar__menu:hover {
+    background-color: var(--background-grey);
+}
+
+.sidebar__menu_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sidebar__menu_item i {
+    margin-right: 15px;
+    color: var(--font-black);
+    font-size: 22px;
+}
+
+.sidebar__menu_item span {
+    color: var(--font-black);    
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Questrial&display=swap");
+
+
+body {
+    background-color: #f5f6fa;
+    font-family: "Nunito Sans", sans-serif;;
+}
+
+
+/* body view */
+
+.bodyview {
+    display: flex;
+    height: 90vh;
+}
+
+.mainview {
+    /* border: 1px solid orange; */
+    flex: 85;
+    padding: 10px;
+    border-left: 2px solid var(--primary-black);
+
+}
+
+.product__header {
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.product__header .new__btn {
+    height: 40px;
+    width: 130px;
+    background-color: var(--primary-blue);
+    color: var(--background);
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.new__btn i {
+    color: var(--background);
+    margin-left: 10px;
+}
+
+.product__filters {
+    height: 7vh;
+    border: 1px salmon solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.product__search {
+    background-color: var(--background-grey);
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+
+.product__search i {
+    font-size: 18px;
+    color: var(--font-black);
+}
+
+.product__search input {
+    background-color:  transparent;
+    border: none;
+    height: 24px;
+    width: 180px;
+    margin-left: 10px;
+
+}
+
+.filter__div select {
+    border: none;
+    background-color: blue;
+    padding: 10px;
+    font-size: 13px;
+    color: #fff;
+    /* display: none; */
+}
+
+
+.select__filter {
+    background-color: pink;
+}
+
+.table__div {
+    padding: 0 15px;
+    margin-top: 15px;
+}
+
+
+.table__div table {
+    border-collapse: collapse;
+    width: 100%;
+    border-collapse: collapse;
+	border: 1px solid #ebebeb;
+    border-radius: 10px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+
+.product__table th, td {
+    /* border: 1px solid black; */
+    padding: 8px;
+  }
+
+.product__table th {
+    background-color: #ebebeb;
+	color: #000;
+	font-size: 0.875rem;
+	text-transform: uppercase;
+	letter-spacing: 2%;
+}
+
+
+.product__table tr:nth-child(odd) {
+    background-color: #ebebeb;
+  }
+
