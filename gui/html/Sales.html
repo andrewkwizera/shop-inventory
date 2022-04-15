@@ -18,6 +18,7 @@
     <!-- <link rel="stylesheet" href="../css/product.css"> -->
 </head>
 <body>
+    <script src="../javascript/index.js"></script>
 
     <section class="main__nav">
         <div class="nav">
@@ -64,8 +65,87 @@
             <div class="product__header">
                 <h3>Sales</h3>
                 <div class="new__btn">
-                    New Sale
-                    <i class="uil uil-plus-circle"></i>
+                    
+                       New Sale
+            
+                    <i id="modal-btn" class="uil uil-plus-circle"></i>
+
+                    <div id="newsale-modal" class="modal">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h2>Add Sales</h2>
+                          </div>
+                          <div class="modal-body">
+                            <form action="#">
+                                <div class="data">
+                                   <label>Product Id</label>
+                                   <input type="text" required>
+                                </div>
+                                <div class="data">
+                                   <label>Product Name</label>
+                                   <input type="text" required>
+                                </div>
+                               <div class="data">
+                                   <lable>Status</lable>
+                                   <input type="text" required>
+                               </div>
+                               <div class="data">
+                                    <lable>Category</lable>
+                                    <input type="text" required>
+                                </div>
+                                <div class="data">
+                                    <lable>Quantity</lable>
+                                    <input type="text" required>
+                                </div>
+                                <div class="data">
+                                    <lable>Unit Price</lable>
+                                    <input type="text" required>
+                                </div>
+                                <div class="data">
+                                    <lable>TotalPrice</lable>
+                                    <input type="text" required>
+                                </div>
+                                <div class="btn">
+                                   <div class="inner"></div>
+                                   <button type="submit">ADD</button>
+                                </div>
+                                
+                             </form>
+                        </div>
+                        
+                          </div>
+                          <!-- <div class="modal-footer">
+                            <h3>Modal Footer</h3>
+                          </div> -->
+                        </div>
+                      </div>
+                    <!-- <div class="container">
+                        <label for="show" class="close-btn fas fa-times" title="close"></label>
+                        <div class="text">
+                           Login Form
+                        </div>
+                        <form action="#">
+                           <div class="data">
+                              <label>Email or Phone</label>
+                              <input type="text" required>
+                           </div>
+                           <div class="data">
+                              <label>Password</label>
+                              <input type="password" required>
+                           </div>
+                           <div class="forgot-pass">
+                              <a href="#">Forgot Password?</a>
+                           </div>
+                           <div class="btn">
+                              <div class="inner"></div>
+                              <button type="submit">login</button>
+                           </div>
+                           <div class="signup-link">
+                              Not a member? <a href="#">Signup now</a>
+                           </div>
+                        </form>
+                     </div> -->
                 </div>
             </div>
 
