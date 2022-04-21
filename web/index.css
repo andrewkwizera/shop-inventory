@@ -1,0 +1,357 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Questrial&display=swap");
+
+
+/*:root {
+    --primary-blue: #333366;
+    --font-black: #333333;
+    --background: #f5f6fa;
+    --primary-black: #788bbc;
+    --background-grey: #e5eaf0;
+}*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+    /* width: 100vw; */
+}
+
+
+.main__nav {
+    /*border-bottom: 2px solid var(--primary-black);*/
+    display: flex;
+    height: 10vh;
+}
+
+.nav {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.userdetails {
+    display: flex;
+    align-items: center;
+    /*background-color: var(--background-grey);*/
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    /*color: var(--font-black);*/
+    transition: .3s ease-in-out;
+}
+
+.userdetails:hover {
+    /*background-color: var(--primary-black);*/
+    /*color: var(--background-grey);*/
+}
+
+.userdetails img {
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+.userdetails i {
+    font-size: 18px;
+    /*color: var(--font-black);*/
+    margin-left: 15px;
+}
+
+.sidebar {
+    /* height: 900px; */
+    flex: 15;
+    width: 15%;
+    padding: 0 15px;
+}
+
+.sidebar__menu {
+    height: 40px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    border-radius: 30px;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.sidebar__menu:hover {
+    /*background-color: var(--background-grey);*/
+}
+
+.sidebar__menu_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sidebar__menu_item i {
+    margin-right: 15px;
+    /*color: var(--font-black);*/
+    font-size: 22px;
+}
+
+.sidebar__menu_item span {
+    /*color: var(--font-black);*/    
+}
+
+/*@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Questrial&display=swap");*/
+
+
+body {
+    background-color: #f5f6fa;
+    font-family: "Nunito Sans", sans-serif;;
+}
+
+
+/* body view */
+
+.bodyview {
+    display: flex;
+    height: 90vh;
+}
+
+.mainview {
+    /* border: 1px solid orange; */
+    flex: 85;
+    padding: 10px;
+    /*border-left: 2px solid var(--primary-black);*/
+
+}
+
+
+.product__header {
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.product__header .new__btn {
+    height: 40px;
+    width: 130px;
+    /*background-color: var(--primary-blue);*/
+    /*color: var(--background);*/
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.new__btn i {
+    /*color: var(--background);*/
+    margin-left: 10px;
+}
+.new__btn{
+    cursor: pointer;
+}
+.product__filters {
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.product__search {
+    /*background-color: var(--background-grey);*/
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+
+.product__search i {
+    font-size: 18px;
+    /*color: var(--font-black);*/
+}
+
+.product__search input {
+    background-color:  transparent;
+    border: none;
+    height: 24px;
+    width: 180px;
+    margin-left: 10px;
+
+}
+
+.filter__div select {
+    border: none;
+    /*background-color: var(--background-grey);*/
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 13px;
+    /*color: var(--font-black);*/
+    /* display: none; */
+}
+
+
+.select__filter {
+    background-color: pink;
+}
+
+.table__div {
+    padding: 0 15px;
+    margin-top: 15px;
+}
+
+
+.table__div table {
+    border-collapse: collapse;
+    width: 100%;
+    border-collapse: collapse;
+	border: 1px solid #ebebeb;
+    border-radius: 10px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+
+.product__table th, td {
+    /* border: 1px solid black; */
+    padding: 8px;
+  }
+
+.product__table th {
+    /*background-color: var(--background-grey);*/
+	color: #000;
+	font-size: 0.875rem;
+	text-transform: uppercase;
+	letter-spacing: 2%;
+}
+
+
+.product__table tr:nth-child(odd) {
+    /*background-color: var(--background-grey);*/
+  }
+
+  /*Add sales Beg*/
+  .modal {
+    /* display: none; */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  .modal-content {
+    margin: 10% auto;
+    width: 60%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+    animation-name: modalopen;
+    /*animation-duration: var(--modal-duration);*/
+  }
+
+  .modal-header h2,
+.modal-footer h3 {
+  margin: 0;
+}
+
+.modal-header {
+  /*background: var(--modal-color);*/
+  padding: 15px;
+  color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.modal-body {
+  padding: 5px 10px;
+  background: lightcoral;
+}
+.close {
+  color: #ccc;
+  float: right;
+  font-size: 30px;
+  color: #fff;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@keyframes modalopen {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.container .text{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    color: #000;
+  }
+
+.container form{
+    margin-top: -20px;
+  }
+  .container form .data{
+    height: 45px;
+    width: 100%;
+    margin: 40px 0;
+  }
+  form .data label{
+    font-size: 18px;
+    /* color: #000; */
+  }
+  form .data input{
+    height: 100%;
+    width: 100%;
+    padding-left: 2px;
+    font-size: 17px;
+    border: 1px solid silver;
+  }
+  form .data input:focus{
+    border-color: #3498db;
+    border-bottom-width: 2px;
+  }
+
+  form .btn{
+    margin: 30px 0;
+    height: 45px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  form .btn .inner{
+    height: 100%;
+    width: 300%;
+    position: absolute;
+    left: -100%;
+    z-index: -1;
+    background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
+    transition: all 0.4s;
+  }
+  form .btn:hover .inner{
+    left: 0;
+  }
+  form .btn button{
+    height: 100%;
+    width: 100%;
+    background: none;
+    border: none;
+    /*color: var(--primary-blue);*/
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+/* Add sales end */
