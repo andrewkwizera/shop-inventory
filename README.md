@@ -32,10 +32,8 @@ A simple projects that keeps track of a shop's inventory (stock). Best programmi
 ### Tasks, Checklist
 
 - [x] Database structure
-- [ ] GUI design, layout
-- [ ] CRUD operations
+- [x] GUI design, layout
+- [x] CRUD operations
 - [ ] Apply best practices
-  - [ ] Principles; SOLID, DRY, KISS
-  - [ ] Mocking
+  - [x] Principles; SOLID, DRY, KISS
   - [ ] Testing; unit, performance
-  - [ ] Logging
