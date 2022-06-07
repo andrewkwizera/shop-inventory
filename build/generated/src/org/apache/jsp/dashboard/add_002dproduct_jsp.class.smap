@@ -1,0 +1,28 @@
+SMAP
+add_002dproduct_jsp.java
+JSP
+*S JSP
+*F
++ 0 add-product.jsp
+dashboard/add-product.jsp
++ 1 navbar-dashboard.jsp
+dashboard/../partials/navbar-dashboard.jsp
++ 2 sidebar.jsp
+dashboard/../partials/sidebar.jsp
+*L
+1,12:54
+12,14:66
+1#1,7:80
+8:87,3
+9,40:90
+25#0,35:129
+60,3:165
+62:168
+63:169,6
+64:175,3
+65,6:178
+71:184,3
+72,26:187
+1#2,40:213
+97#0,9:252
+*E

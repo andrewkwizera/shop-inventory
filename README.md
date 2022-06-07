@@ -1,5 +1,7 @@
 # Shop Inventory
 
+[Dashboard](Screenshot.PNG)
+
 A simple projects that keeps track of a shop's inventory (stock). Best programming school project, written in Java...
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=andrewkwizera&repo=shop-inventory)](https://github.com/andrewkwizera/shop-inventory)
@@ -14,7 +16,7 @@ A simple projects that keeps track of a shop's inventory (stock). Best programmi
 
 - git clone `https://github.com/andrewkwizera/shop-inventory`
 - Open netbeans, and import project (from where it was cloned)
-- Configure `Hibernate.cfg` to match your database configurations
+- Configure `src/java/hibernate.cfg` to match your database configurations
 - Run the project
 
 ### Contributors

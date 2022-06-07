@@ -1,0 +1,36 @@
+SMAP
+index_jsp.java
+JSP
+*S JSP
+*F
++ 0 index.jsp
+dashboard/index.jsp
++ 1 navbar-dashboard.jsp
+dashboard/../partials/navbar-dashboard.jsp
++ 2 sidebar.jsp
+dashboard/../partials/sidebar.jsp
+*L
+1,19:54
+1#1,7:73
+8:80,3
+9,40:83
+19#0,8:122
+27:130,3
+28,5:133
+33:138,3
+34,5:141
+39:146,3
+40,5:149
+45:154,3
+46,22:157
+68,3:180
+70,2:183
+72,3:185,3
+75:194
+76,2:195,3
+78,2:201
+80:203,3
+81,9:206
+1#2,40:215
+89#0,9:254
+*E

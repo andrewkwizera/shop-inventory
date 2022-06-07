@@ -5,9 +5,10 @@ JSP
 *F
 + 0 login.jsp
 login.jsp
++ 1 navbar.jsp
+./partials/navbar.jsp
 *L
-5,12:45
-16,11:57
-27:68,3
-28,7:71
+1,15:49
+1#1,64:64
+15#0,35:127
 *E
