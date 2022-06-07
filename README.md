@@ -1,6 +1,6 @@
 # Shop Inventory
 
-[Dashboard](Screenshot.PNG)
+![Dashboard](Screenshot.png)
 
 A simple projects that keeps track of a shop's inventory (stock). Best programming school project, written in Java...
 
